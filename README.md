@@ -29,3 +29,4 @@ https://github.com/youth5201314/banner
 https://blog.csdn.net/cao185493676/article/details/51011400
 
 11.使用Retrofit2.0上传单张图片或多张图片到
+https://www.jianshu.com/p/e900d351d7ed
