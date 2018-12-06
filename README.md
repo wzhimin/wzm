@@ -52,4 +52,7 @@ https://github.com/SenhLinsh/Android-Hot-Libraries#android-hot-libraries
 18.mac下git安装和使用
 https://www.cnblogs.com/shenmeiya99/p/5691871.html
 
+19.TvRecyclerView--针对TV端特性进行的适配与开发
+https://github.com/zhousuqiang/TvRecyclerView
+
 
