@@ -27,3 +27,5 @@ https://github.com/youth5201314/banner
 
 10.二进制颜色代码大全（含图）透明度与十六进制代码转换
 https://blog.csdn.net/cao185493676/article/details/51011400
+
+11.使用Retrofit2.0上传单张图片或多张图片到
