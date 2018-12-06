@@ -4,3 +4,5 @@
 2.RecyclerView实现item重叠。
 3.api与implementation的区别。
 4.Android面试题。
+5.二维码与条形码很好用的第三方库
+https://github.com/bertsir/zBarLibary
