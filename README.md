@@ -21,3 +21,6 @@ https://blog.csdn.net/csdn_aiyang/article/details/74989318
 
 8.简历模版
 https://mp.weixin.qq.com/s/Ae_z3A3_ZFO2xpzM14Kz2g
+
+9.一款好用的banner
+https://github.com/youth5201314/banner
