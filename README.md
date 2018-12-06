@@ -40,3 +40,6 @@ https://blog.csdn.net/mayohn/article/details/82152360#生成c头文件
 14.AndroidStudio项目打包成jar
 https://www.cnblogs.com/xxdh/p/6703746.html
 
+15.Android中文平台
+https://developer.android.google.cn/about/
+
