@@ -1,0 +1,41 @@
+ GridLayoutManager manager；
+ 
+ manager.setSpanSizeLookup(new GridLayoutManager.SpanSizeLookup() {
+            @Override
+            public int getSpanSize(int position) {
+                return getSpanSizeFromPosition(position);
+            }
+        });
+        
+   private int getSpanSizeFromPosition(int position) {
+        int viewType = adapter.getItemViewType(position);
+        int spanValue;
+        switch (viewType) {
+            case 0:
+                spanValue = 3;
+                break;
+            case 1:
+                spanValue = 3;
+                break;
+            case 2:
+                spanValue = 6;
+                break;
+            case 3:
+                spanValue = 1;
+                break;
+            case 4:
+                spanValue = 3;
+                break;
+            case 5:
+                spanValue = 2;
+                break;
+            case 6:
+                spanValue = 6;
+                break;
+            default:
+                spanValue = 6;
+                break;
+        }
+        return spanValue;
+    }
+    根据不同type加载不同的view，每个view占用的holder的占据的列数。从而每行不同的布局。
