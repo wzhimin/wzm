@@ -45,3 +45,7 @@ https://developer.android.google.cn/about/
 
 16.Git教程
 https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+17.Android项目中最火最常用的优秀开源项目（很有用）
+https://github.com/SenhLinsh/Android-Hot-Libraries#android-hot-libraries
+
