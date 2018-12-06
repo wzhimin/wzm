@@ -9,3 +9,5 @@ https://www.jianshu.com/p/8962d6ba936e
 https://github.com/bertsir/zBarLibary
 6.Android 学习资料收集
 https://github.com/Freelander/Android_Data
+7.Android 性能优化
+https://blog.csdn.net/csdn_aiyang/article/details/74989318
