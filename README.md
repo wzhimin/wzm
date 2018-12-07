@@ -55,4 +55,7 @@ https://www.cnblogs.com/shenmeiya99/p/5691871.html
 19.TvRecyclerView--针对TV端特性进行的适配与开发
 https://github.com/zhousuqiang/TvRecyclerView
 
+20.Android TV开发 开源项目收集
+https://blog.csdn.net/jun5753/article/details/78662918
+
 
