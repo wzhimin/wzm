@@ -61,6 +61,18 @@ https://blog.csdn.net/jun5753/article/details/78662918
 21.基于Glide V4.8.0封装的图片加载库，可以监听加载图片时的进度
 https://github.com/sunfusheng/GlideImageView
 
+22. 打造通用的popupwindow
+https://github.com/razerdp/BasePopup
+
+23.我赌5毛你没见过这样的SpannableString
+https://www.jianshu.com/p/509b0d2626f4
+
+24.开源框架BaseRecyclerViewAdapterHelper使用——RecyclerView万能适配器
+https://www.jianshu.com/p/1e20f301272e
+
+25.（时间选择器、省市区三级联动）
+https://github.com/Bigkoo/Android-PickerView
+
 
 
 
