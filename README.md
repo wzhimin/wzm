@@ -73,6 +73,9 @@ https://www.jianshu.com/p/1e20f301272e
 25.（时间选择器、省市区三级联动）
 https://github.com/Bigkoo/Android-PickerView
 
+26.Android布局优化之ViewStub、include、merge使用与源码分析
+https://blog.csdn.net/bboyfeiyu/article/details/45869393
+
 
 
 
