@@ -76,6 +76,9 @@ https://github.com/Bigkoo/Android-PickerView
 26.Android布局优化之ViewStub、include、merge使用与源码分析
 https://blog.csdn.net/bboyfeiyu/article/details/45869393
 
+27.Android性能优化：手把手教你如何让App更快、更稳、更省（含内存、布局优化等）
+https://www.jianshu.com/p/516effe7649d
+
 
 
 
