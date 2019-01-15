@@ -80,3 +80,6 @@ https://blog.csdn.net/bboyfeiyu/article/details/45869393
 https://www.jianshu.com/p/516effe7649d
 
 28.https://xclient.info/s/
+
+29.android studio 设置
+https://www.cnblogs.com/smyhvae/p/4390905.html
