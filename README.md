@@ -1,5 +1,4 @@
-# wzm
-主要功能有。
+# wzm 自己积攒的一些经验与开发中遇到的问题
 
 1.GridLayoutManager实现不同的布局。
 
