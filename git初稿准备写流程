@@ -1,0 +1,122 @@
+-
+cd /Users/wangzhimin/Desktop //切换到桌面
+git init //初始化git
+git clone git@gitee.com:lawmil/mudser-android.git //克隆git
+
+  //切换到文件目录
+git init      //初始化git
+git status //查看文件状态
+git add .   //添加代码
+git commit -m “测试“  //添加注解
+git restore —staged 文件把add的文件还原
+cd desktop ///切换到桌面
+touch .gitignore    ///创建.gitignore
+vim  .gitignore     ///进入编辑.gitignore
+
+
+	•	HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令git reset --hard commit_id。
+	•	穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。
+	•	要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
+	•	
+git branch  ceshi//创建分支
+git checkout ceshi//切换分支
+git push --set-upstream origin ceshi //提交到远程
+git checkout master//切换到主分支
+gitk 对比
+
+git pull origin master //在远程拉取最新代码
+git push origin master //提交代码到远程
+
+
+功能：git合并分支
+Git branch -vv //查看分支
+git branch -d //删除本地分支
+git push --set-upstream origin cash
+Git merge --no-ff ceshi //合并本地其他分支到当前分支
+
+接输入”:wq”你会发现这个出现在终端的最下面，这是OK的，最后 enter，就OK了。
+
+git log //查看提交日志
+git log --pretty=oneline 
+功能：git配置
+git config --global user.email “王志民”
+git config --global user.name “602404644@qq.com”git config --global --edit 查看是否配置成功
+
+功能：git基本操作
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>或者git switch <name>
+创建+切换分支：git checkout -b <name>或者git switch -c <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name> 
+
+功能：添加暂存删除暂存
+git stash 暂存当前的开发 所有分支都可以看到
+git stash list 暂存当前的开发l列表
+git stash pop 取出暂存当前的开发
+然后你就可以 执行 git stash clear  :注意这是清空你所有的内容
+$ git stash drop stash@{0}  这是删除第一个队列
+
+
+功能：拉取远程分支
+如果出现提示：
+fatal: Cannot update paths and switch to branch 'dev2' at the same time.
+Did you intend to checkout 'origin/dev2' which can not be resolved as commit?
+表示拉取不成功。我们需要先执行
+git fetch
+然后再执行
+git checkout -b 本地分支名 origin/远程分支名
+即可。
+
+功能：查询个人的代码量
+git log --author="王志民" --pretty=tformat: --numstat | awk '{ add += $1; subs += $2; loc += $1 - $2 } END { printf "added lines: %s, removed lines: %s, total lines: %s\n", add, subs, loc }' -
+
+
+
+功能：基类的一些基础类型
+model
+用Integer不用int  默认值不为0为null
+用long不用Long 默认值不为0位null
+数字number
+但是必须要记住float和double都不是精确的，如果要储存钱一类的必须精确的，用java.math.BigDecimal
+
+
+功能：把本地代码提交的git
+git init
+git remote add origin https://gitee.com/myshitian/bootstrap-Browser 远程关联
+拒绝无关的历史合并
+$ git pull origin master --allow-unrelated-histories   
+$git fetch origin    //获取远程更新  
+$git merge origin/master //把更新的内容合并到本地分支  
+
+功能：撤销提交的commit
+git commit --amend 撤销
+git rm -r --cached . // 删除本地缓存
+git add . // 添加要提交的文件
+git commit -m 'update .gitignore' // 更新本地的缓存
+
+
+功能：更改本地与远程的分支名字
+1、将本地分支oldbranch切一个分支到本地
+     git branch -m oldbranch newbranch
+2、删除远程分支
+　   git push --delete origin oldbranch
+3、将本地新分支推送到远程
+　  git push origin newbranch
+
+
+功能：查看和修改git当前账户
+用户名和邮箱地址相当于你的身份标识，是本地Git客户端的一个变量，不会随着Git库而改变。
+每次commit都会用用户名和邮箱纪录。
+github的contributions跟你的邮箱是有关联的。
+1、查看用户以及邮箱，使用git config命令
+      git config user.name
+      git config user.email
+2、修改用户名以及邮箱，使用git config 命令的--global参数
+      git config --global user.name "your name"
+      git config --global user.email "your email"
+
+
+要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
+关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
+此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
