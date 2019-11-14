@@ -9,4 +9,6 @@ File| Settings | Editor | File and Code Templates|FileHeader
 * <author> <time> <version> <desc>
 * 王志民 ${DATE} ${TIME} ${VERSION}  ${DESCRIPTION}
 */
-
+2.配置阿里公约
+*点击设置，也可按快捷键Ctrl+Alt+S
+*找到Plugins选项，搜索 Alibaba Java Coding Guidelines ,搜索到后，你可以直接下载，安装，但是要记得重启Android Studio
