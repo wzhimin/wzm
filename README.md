@@ -82,3 +82,9 @@ https://www.jianshu.com/p/516effe7649d
 
 29.android studio 设置
 https://www.cnblogs.com/smyhvae/p/4390905.html
+30.屏幕适配
+https://github.com/JessYanCoding/AndroidAutoSize
+https://github.com/timedance/ScreenAdapter
+
+
+
