@@ -1,0 +1,7 @@
+1.for循环最多3层,能减少一级是一级,多用continue break return；
+continue 跳出本次循环进行下一次循环
+break 跳出整个循环
+return 跳出整个方法
+2.判断2级用if return
+判断3级或3级以上用switch 注意写default
+3.java阿里公约
