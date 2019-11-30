@@ -120,3 +120,31 @@ github的contributions跟你的邮箱是有关联的。
 要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
 关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
 此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
+
+
+解决Untracked files:
+
+解决办法：执行git clean -f ，不行用git clean -d -fx
+
+
+使用 git branch -a 可以查看本地分支和远程分支情况
+
+但远程分支（红色部分）删除后，发现本地并没有同步过来。
+一. 同步本地的远程分支
+
+查看本地分支和追踪情况：
+
+git remote show origin
+
+可以发现红框中的分支是远程分支已被删除的分支，根据提示可以使用 git remote prune 来同步删除这些分支。
+
+运行命令：
+
+git remote prune origin
+
+再次查看分支情况：
+
+发现红色部分的远程分支已经同步，远程删除的分支，本地也已经不见了。
+
+
+
