@@ -87,4 +87,12 @@ https://github.com/JessYanCoding/AndroidAutoSize
 https://github.com/timedance/ScreenAdapter
 
 
+https://github.com/bingoogolapple/BGAQRCode-Android
+https://github.com/scwang90/SmartRefreshLayout/tree/master#%E7%AE%80%E5%8D%95%E7%94%A8%E4%BE%8B
+https://github.com/CymChad/BaseRecyclerViewAdapterHelper/blob/master/README-cn.md
+https://github.com/SelfZhangTQ/T-MVVM
+https://github.com/zhhr1122/z_comic_new
+https://github.com/sunnnydaydev/ModelMall
+https://github.com/ForgetSky/WanAndroid
+https://github.com/guofudong/EShop
 
