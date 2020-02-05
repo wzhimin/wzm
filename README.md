@@ -85,6 +85,7 @@ https://www.cnblogs.com/smyhvae/p/4390905.html
 30.屏幕适配
 https://github.com/JessYanCoding/AndroidAutoSize
 https://github.com/timedance/ScreenAdapter
+31.svg图片适配 
 
 
 https://github.com/bingoogolapple/BGAQRCode-Android
