@@ -86,6 +86,7 @@ https://www.cnblogs.com/smyhvae/p/4390905.html
 https://github.com/JessYanCoding/AndroidAutoSize
 https://github.com/timedance/ScreenAdapter
 31.svg图片适配 
+32.今日头条适配https://github.com/JessYanCoding/AndroidAutoSize/blob/master/README-zh.md
 
 
 https://github.com/bingoogolapple/BGAQRCode-Android
